@@ -9,8 +9,7 @@ RUN uv sync --frozen --no-dev
 
 COPY main.py ./
 
-ENV MCP_TRANSPORT=http
-
+ENV PORT=8000
 EXPOSE 8000
 
 CMD ["uv", "run", "main.py"]

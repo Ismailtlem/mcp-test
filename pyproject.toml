@@ -1,9 +1,7 @@
 [project]
-name = "mcp-server-init"
+name = "mcp-server-my-todo"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = [
-    "mcp[cli]>=2.0.0",
-]
+dependencies = ["mcp[cli]>=1.9.0,<2.0.0"]
